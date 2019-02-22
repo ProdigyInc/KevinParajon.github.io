@@ -1,20 +1,20 @@
 body {
-  background-color: rgba(0,0,0,0.65)
+  background-color: white;
     
 }
 
 h1 {
-  color: white;
+  color: black;
   text-align: center;
 }
 h2#top{
-  color: white;
+  color: black;
   text-align: center;
 }
 p#indexP {
   font-family: Cambria;
   font-size: 20px;
-  color:white;
+  color:black;
   margin: inherit;
   padding: 15px;
   text-align: left;
@@ -23,19 +23,19 @@ p#indexP {
 p#p2 {
   font-family: Cambria;
   font-size: 20px;
-  color:white;
+  color:black;
   margin: inherit;
   padding: 15px;
 }
 h4#Languages {
-    color: white;
+    color: black;
     text-align: center;
 }
 li {
     display: block;
 }
 h4#Skills {
-    color: white;
+    color: black;
     text-align: center;
 }
 h2#bar {
@@ -43,7 +43,7 @@ h2#bar {
     text-align: center;
 }
 a {
-    color: white;
+    color: black;
     
 }
 div#body{
@@ -75,6 +75,6 @@ div#cenIm {
     text-align: center;
 }
 p#ul {
-    color:white;
+    color:black;
     text-align: center;
 }
