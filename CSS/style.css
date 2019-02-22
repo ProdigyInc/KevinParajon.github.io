@@ -1,0 +1,80 @@
+body {
+  background-color: rgba(0,0,0,0.65)
+    
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+h2#top{
+  color: white;
+  text-align: center;
+}
+p#indexP {
+  font-family: Cambria;
+  font-size: 20px;
+  color:white;
+  margin: inherit;
+  padding: 15px;
+  text-align: left;
+
+}
+p#p2 {
+  font-family: Cambria;
+  font-size: 20px;
+  color:white;
+  margin: inherit;
+  padding: 15px;
+}
+h4#Languages {
+    color: white;
+    text-align: center;
+}
+li {
+    display: block;
+}
+h4#Skills {
+    color: white;
+    text-align: center;
+}
+h2#bar {
+    background-color: rgba(0,0,0,0.45);
+    text-align: center;
+}
+a {
+    color: white;
+    
+}
+div#body{
+    padding-left: 540px;
+    padding-right: 540px;
+}
+img#Kevin {
+ float: right;
+ padding: 10px;
+ border-radius:50%;
+}
+div#divBar {
+    padding-left: 500px;
+    padding-right: 500px;
+    border-radius: 50%;
+}
+img#scratch {
+ padding: 10px;
+ align-self: center;
+}
+h2#Dio {
+    text-align: center;
+    color: white;
+}
+p#p2 {
+    text-align: center;
+}
+div#cenIm {
+    text-align: center;
+}
+p#ul {
+    color:white;
+    text-align: center;
+}
