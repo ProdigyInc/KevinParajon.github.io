@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Choice Game by Kevin Parajon</title>
+    </head>
+    <body>
+        <script>
+            alert('Welcome to the Choice Game!');
+            var person = prompt("Please tell us your name...", "Harry Potter");
+            alert("Nice to meet you " + person + ".");
+            alert("Now I will ask you a series of questions, in which each answer you give will affect the storyline of the game you play.");
+            alert("So make sure to read EVERYTHING CAREFULLY. Try and make the right decision.");
+            alert("*thud* *thud* *thud*");
+            alert(person + ": Hello? Who's there?");
+            alert("*That was weird, but I also don't have to go into work for another 4 hours so Im ignoring that*");
+            alert(person + " *falls asleep*");
+            alert(person + " wakes up and checks the clock.");
+            var timeClock = prompt("What time is it?", "12 or 1?");
+                if (timeClock === "1") {
+                    var timeTWork = "1";
+                    alert("damn, time went by fast.");
+                    alert("I have " + timeTWork + " hour left for work.");
+                    alert("I should probably eat something quick and head out before im late.");
+                    alert("Should I eat a banana or a poptart?");
+                    var smallFoodChoice = prompt("1 for Banana | 2 for Poptart (select one]");
+                        if (smallFoodChoice === "1") {
+                            alert("Healthy life is the happiest life.");
+                            alert("Great, now let me get dressed for work");
+                            alert("*" + person + " puts on work clothes*");
+                            alert("When " + person + " arrives at work she feels good and excited to get through the work shift");
+                            alert(person + ":" + " Hey Alex, how are you doing today?");
+                            alert("Alex: Honestly, im not doing so well. Cindy called off so its just you, me and the hoard of customers. I hope you had a good breakfast.");
+                            alert("*8 hours later*");
+                            alert(person + ":" + " I feel like im going to pass out. Thank god its all over.");
+                            alert("*" + person + " gets home and goes straight to bed*");
+                            alert("*" + person + " wakes up 12 hours and misses clock*");
+                            alert("OH NO! I AM MOST DEFINETLY FIRED!");
+                        }
+                        else {
+                            alert("I love poptarts so much.");
+                            alert("Great, now let me get dressed for work");
+                            alert("*" + person + " puts on work clothes*");
+                            alert("When " + person + " arrives at work she feels very tired and has a huge headache. Work is going to be tough.");
+                            alert(person + ":" + " Sup alex.");
+                            alert("Alex: Hey, its just you and I today. Cindy called off again.");
+                            alert(person + ": Damn, of course this happens when I have the biggest headache.");
+                            alert("*8 hours later*");
+                            alert(person + ":" + " I am definetly going to throw up in a minute.");
+                            alert("*" + person + " throws up and passes out*");
+                            alert("*" + person + " wakes up in the hospital*");
+                            alert("Oh no, this bill is going to be awfully pricy isn't it");
+                            alert("I have to call my mom");
+                        }
+                }
+                else {
+                   var timeTWork = "2";
+                    alert("I should make some breakfast.");
+                    alert("I have around " + timeTWork + " hours until I have to be at work.");
+                    alert("Should I make myself a big breakfast or something small and fast?");
+                        var foodChoice = prompt("1 for Big Breakfast | 2 for Small and Fast");
+                            if (foodChoice === 1) {
+                                alert("What type of breakfast should I make?");
+                                    var bigBreakFastChoice = prompt("Pancakes [1) or Eggs and Steak [2)");
+                                        if (bigBreakFastChoice === 1) {
+                                            alert("Pancakes aren't the healthiest but better go to work on a full stomach than an empty one!");
+                                        }
+                                        else {
+                                            alert("Steak and Eggs the typical All American Breakfast!");
+                                        }
+                            }
+                        else {
+                            var smallFoodChoice = prompt("1 for Banana | 2 for Poptart (select one]");
+                        if (smallFoodChoice === "1") {
+                            alert("Healthy life is the happiest life.");
+                            alert("Great, now let me get dressed for work");
+                            alert("*" + person + " puts on work clothes*");
+                            alert("When " + person + " arrives at work she feels good and excited to get through the work shift");
+                            alert(person + ":" + " Hey Alex, how are you doing today?");
+                            alert("Alex: Honestly, im not doing so well. Cindy called off so its just you, me and the hoard of customers. I hope you had a good breakfast.");
+                            alert("*8 hours later*");
+                            alert(person + ":" + " I feel like im going to pass out. Thank god its all over.");
+                            alert("*" + person + " gets home and goes straight to bed*");
+                            alert("*" + person + " wakes up 12 hours and misses clock*");
+                            alert("OH NO! I AM MOST DEFINETLY FIRED!");
+                        }
+                        else {
+                            alert("I love poptarts so much.");
+                            alert("Great, now let me get dressed for work");
+                            alert("*" + person + " puts on work clothes*");
+                            alert("When " + person + " arrives at work she feels very tired and has a huge headache. Work is going to be tough.");
+                            alert(person + ":" + " Sup alex.");
+                            alert("Alex: Hey, its just you and I today. Cindy called off again.");
+                            alert(person + ": Damn, of course this happens when I have the biggest headache.");
+                            alert("*8 hours later*");
+                            alert(person + ":" + " I am definetly going to throw up in a minute.");
+                            alert("*" + person + " throws up and passes out*");
+                            alert("*" + person + " wakes up in the hospital*");
+                            alert("Oh no, this bill is going to be awfully pricy isn't it");
+                            alert("I have to call my mom");
+                        }
+                        }
+                }
+        </script>
+    </body>
+</html>

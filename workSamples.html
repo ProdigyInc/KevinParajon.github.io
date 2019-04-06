@@ -15,7 +15,13 @@
         <p id="indexP">
             <em>When starting off I began by learning the basics of coding using a website known as Scratch</em>.
         </p>
-        <div id="cenIm"><img id="scratch" src="images/scracthProject.JPG" width=550 height=300></div>
+            <!--This is a video of my scratch project-->
+        <div id="cenIm">
+            <video width="600" height="400" controls>
+            <source src="/videos/scratchVid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+        </div>
       <h2 id="Dio">Coding Experience</h2>
         <p id="indexP">
             <!--My programming experience-->
@@ -24,7 +30,29 @@
         <div id="cenIm">
             <img id="scratch" src="images/CSS.JPG">
             <img id="scratch" src="images/HTML.JPG" width=263 height=337>
+        </div>
+        <div id="cenIm">
             <a href="https://www.codecademy.com/users/kevinaapp/achievements" target="_blank"><img id="scratch" src="images/caProfile.png" width=263 height=337></a>
             <a href="https://github.com/ProdigyInc" target="_blank"><img id="scratch" src="images/gitProfile.png" width=263 height=337></a>
         </div>
-    </div>
+            <div id="bottomPic">
+            <p>Image to use:</p>
+            <img id="test" src="/images/test.png" alt="The Scream" width="250" height="300">
+            
+            <p>Canvas to fill:</p>
+            <canvas id="myCanvas" width="250" height="300" style="border:1px solid #d3d3d3;">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+    <!--Script to show I can use canvas tags-->
+            <p><button onclick="myCanvas()">Try it</button></p>
+
+                <script>
+                    function myCanvas() {
+                    var c = document.getElementById("myCanvas");
+                    var ctx = c.getContext("2d");
+                    var img = document.getElementById("test");
+                    ctx.drawImage(img,10,10);
+                    }
+                </script>
+            </div>
+        </div>

@@ -17,7 +17,7 @@ p#indexP {
   color:black;
   margin: inherit;
   padding: 15px;
-  text-align: left;
+  text-align: center;
 
 }
 p#p2 {
@@ -117,4 +117,16 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+div#aboutMe {
+    text-align: center;
+}
+div#bottomPic {
+    text-align: center;
+}
+em#center {
+    text-align: center;
+}
+svg {
+    align-content: center;
 }
