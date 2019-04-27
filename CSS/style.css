@@ -18,7 +18,6 @@ p#indexP {
   margin: inherit;
   padding: 15px;
   text-align: center;
-
 }
 p#p2 {
   font-family: Cambria;
@@ -129,4 +128,5 @@ em#center {
 }
 svg {
     align-content: center;
+     text-align: center;
 }
