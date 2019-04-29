@@ -1,5 +1,6 @@
 body {
   background-color: white;
+    align-content: center;
     
 }
 
@@ -129,4 +130,7 @@ em#center {
 svg {
     align-content: center;
      text-align: center;
+}
+video {
+    align-content: center;
 }
